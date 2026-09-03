@@ -121,3 +121,4 @@ To understand the model's behavior under different market regimes (e.g., negativ
 
 ### Visualizing the Forecast (90-Day Rolling Window)
 
+![Forecast vs Real DAM Price](dam_forecast_90day.png)
