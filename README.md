@@ -12,7 +12,7 @@ The model's robustness was tested using a dynamic rolling-window validation appr
 | **Out-of-Sample MAE** | 20.07 €/MWh |
 | **Out-of-Sample RMSE** | 32.11 €/MWh |
 
-### Detailed Error Analysis by Price Bin (Dynamic Blend)
+### Detailed Error Analysis by Price Bin
 
 
 | Price Bin (€/MWh) | MAE (€/MWh) | Sample Count |
