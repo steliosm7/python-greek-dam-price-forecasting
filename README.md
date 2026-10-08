@@ -4,9 +4,6 @@ The model's robustness was tested using a dynamic rolling-window validation appr
 
 ### Overall Out-of-Sample Metrics
 
-
-### Overall Out-of-Sample Metrics
-
 | Metric | Out-of-Sample Value |
 | :--- | :--- |
 | **Out-of-Sample MAE** | 20.07 €/MWh |
