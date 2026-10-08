@@ -15,15 +15,15 @@ The model's robustness was tested using a dynamic rolling-window validation appr
 ### Detailed Error Analysis by Price Bin (Dynamic Blend)
 
 
-| Price Bin (€/MWh) | MAE (€/MWh) | Sample Count | Market Regime |
-| :--- | :--- | :--- | :--- |
-| **(-inf, 0.0]** | 8.40 | 3734 | Cannibalization / RES Over-generation |
-| **(0.0, 35.0]** | 21.17 | 2281 | Low Demand Transition |
-| **(35.0, 85.0]** | 25.04 | 2858 | Base Load |
-| **(85.0, 115.0]** | 17.53 | 6383 | Target Model Sweet Spot |
-| **(115.0, 150.0]** | 17.48 | 7229 | Target Model Sweet Spot |
-| **(150.0, 200.0]** | 24.02 | 4635 | Evening Peak / Scarcity Start |
-| **(200.0, inf]** | 38.54 | 2352 | Extreme Spikes / Market Panic |
+| Price Bin (€/MWh) | MAE (€/MWh) | Sample Count |
+| :--- | :--- | :--- | 
+| **(-inf, 0.0]** | 8.40 | 3734 |
+| **(0.0, 35.0]** | 21.17 | 2281 | 
+| **(35.0, 85.0]** | 25.04 | 2858 | 
+| **(85.0, 115.0]** | 17.53 | 6383 | 
+| **(115.0, 150.0]** | 17.48 | 7229 |
+| **(150.0, 200.0]** | 24.02 | 4635 | 
+| **(200.0, inf]** | 38.54 | 2352 | 
 
 ### Visualizing the Forecast (90-Day Rolling Window)
 
